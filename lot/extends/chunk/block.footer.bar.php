@@ -1,0 +1,2 @@
+<div class="blog-footer-left">&copy; <?php echo date('Y'); ?> <a href="<?php echo $config->url; ?>"><?php echo $config->title; ?></a> &middot; <?php echo Config::speak('power_generator', MECHA_VERSION); ?></div>
+<div class="blog-footer-right"></div>

@@ -1,0 +1,1 @@
+<p><?php echo Config::speak('notify_error__not_found', strpos($speak->notify_error__not_found, '%s') === 0 ? $s : strtolower($s)); ?></p>

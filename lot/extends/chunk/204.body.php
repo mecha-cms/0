@@ -1,0 +1,1 @@
+<p><?php echo Config::speak('notify_empty', strpos($speak->notify_empty, '%s') === 0 ? $s : strtolower($s)); ?></p>
